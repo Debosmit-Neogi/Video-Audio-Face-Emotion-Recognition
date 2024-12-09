@@ -25,7 +25,7 @@ if __name__ == "__main__":
     if len(sys.argv) <= 1:
         print("1) Audio analysis")
         print("2) Face analysis")
-        print("3) AV combined analysis")
+        # print("3) AV combined analysis")
         ch = int(input("Which model: "))
     else:
         ch = int(sys.argv[1])
