@@ -8,10 +8,11 @@ import traceback
 import cv2
 import librosa
 import matplotlib.pyplot as plt
-import moviepy.editor as moviepy
+import moviepy as moviepy
 import numpy as np
 
-from moviepy.editor import VideoFileClip
+# from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.utils.class_weight import compute_class_weight
 
